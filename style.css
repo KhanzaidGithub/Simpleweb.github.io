@@ -1,0 +1,69 @@
+  /* CSS for the hero section */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    background-image: url('your-background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background:linear-gradient(black);
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .hero-content .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bf1c2a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .hero-content .cta-button:hover {
+    background-color: #ff3a4a;
+  }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .content-box {
+    flex: 0 0 45%; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .content-box h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .content-box p {
+    font-size: 1rem;
+  
